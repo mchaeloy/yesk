@@ -20112,7 +20112,7 @@
 														"Explore token swaps, liquidity management and easy token launches",
 												}),
 												(0, va.jsxs)("a", {
-													href: "launch.html",
+													href: "#",
 													rel: "noreferrer",
 													className: "launch-app",
 													children: [
