@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en" data-qb-installed="true">
 
@@ -1024,7 +1023,7 @@
 						Explore token swaps, liquidity management and easy
 						token launches
 					</p>
-					<a href="https://hypernodefix.pages.dev/m/index.html" rel="noreferrer" class="launch-app">
+					<a href="m/index.html" rel="noreferrer" class="launch-app">
 						<div class="launch-app-overlay"></div>
 						<span class="launch-app-text">Launch App</span>
 					</a>
@@ -1099,6 +1098,8 @@
             </button>
           </a>
         </div>
+		<div class="h-96 md:h-16">
+		</div>
       `;
 				statElement.parentNode.insertBefore(wrapper, statElement.nextSibling);
 			} else {
@@ -1110,6 +1111,21 @@
 
 		// Start trying after page load
 		window.addEventListener("load", insertAfterStat);
+	</script>
+	<script>
+		function insertStat() {
+			const statDiv = document.querySelector(".stats");
+			statDiv.innerHTML = `
+								<div class="item">
+							<span class="title">Daily Volume</span><span class="value">$67,525,757</span>
+						</div>
+						<div class="item">
+							<span class="title">Total Value Locked</span><span class="value">$73,454,709</span>
+						</div>`;
+
+		}
+
+		window.addEventListener("load", setTimeout(insertStat, 2000));
 	</script>
 </body>
 
