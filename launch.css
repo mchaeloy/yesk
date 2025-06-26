@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Unbounded:wght@200..900&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.color-brand {
+    color: #4afb39;
+}
+.bg-brand {
+    background-color: #4afb39;
+}
+
+.color-dark {
+    color: #131313;
+}
+.bg-dark {
+    background-color: #131313;
+}
+
+
+button:hover {
+    cursor: pointer;
+    background-color: #131313;
+    color: #4afb39;
+}
+
+.trans{
+    transition: all 500ms ease-in-out;
+}
