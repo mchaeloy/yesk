@@ -20208,19 +20208,19 @@
 												className: "links",
 												children: [
 													(0, va.jsx)("a", {
-														href: "https://docs.hyperswap.exchange/hyperswap",
+														href: "#",
 														target: "_blank",
 														rel: "noreferrer",
 														children: "Docs",
 													}),
 													(0, va.jsx)("a", {
-														href: "https://x.com/HyperSwapX",
+														href: "#",
 														target: "_blank",
 														rel: "noreferrer",
 														children: "Twitter",
 													}),
 													(0, va.jsx)("a", {
-														href: "https://discord.com/invite/hyperswap",
+														href: "#",
 														target: "_blank",
 														rel: "noreferrer",
 														children: "Discord",
